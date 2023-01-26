@@ -13,9 +13,58 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintHorizontal_bias=""
-        app:layout_constraintVertical_bias=""
+        app:layout_constraintBottom_toTopOf="@+id/textFullName"
+        app:layout_constraintVertical_bias="0.03"
+        android:src=""
+
+        />
+
+    <TextView
+        android:id="@+id/textFullName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@+id/profilePicture"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/textDescription"
+        app:layout_constraintVertical_bias="1"
+        app:layout_constraintHorizontal_bias="0.2"
+        android:text="@string/fullName"
+        />
+    <TextView
+        android:id="@+id/textDescription"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@+id/textFullName"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/email"
+        app:layout_constraintVertical_bias="1"
+        android:text="@string/description"
+        />
+
+    <TextView
+        android:id="@+id/email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@+id/textDescription"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/cellPhoneNumber"
+        app:layout_constraintHorizontal_bias="0.35"
+        android:text="@string/email"
+        />
+
+    <TextView
+        android:id="@+id/cellPhoneNumber"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@+id/email"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toTopOf=""
+        app:layout_constraintHorizontal_bias="0.15"
+        android:text="@string/phoneNumber"
         />
 
 </android.support.constraint.ConstraintLayout>
