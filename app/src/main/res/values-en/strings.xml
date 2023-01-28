@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Turistiando</string>
+
+    <string name="opcion1">About me</string>
+    <string name="opcion2">English</string>
+    <string name="opcion3">Spanish</string>
+
+    <string name="iconhotel">Hotel</string>
+    <string name="iconRestaurant">Restaurant</string>
+
+    <string name="fullName">Hi! I am Emanuel Osorio Urrea</string>
+    <string name="description">I am 18 years old, I am from Colombia.\nI studied Software Development at the Cesde School.\nI am a FullStack developer.</string>
+    <string name="email">email: emanuelou67@gmail.com</string>
+    <string name="phoneNumber">CellPhone: 0000000000</string>
+
+</resources>

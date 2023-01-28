@@ -7,10 +7,10 @@
     <string name="opcion3">Español</string>
 
     <string name="iconhotel">Hotel</string>
-    <string name="iconRestaurant">Restaurant</string>
+    <string name="iconRestaurant">Restaurante</string>
 
-    <string name="fullName">Nombre: Emanuel Osorio Urrea</string>
-    <string name="description">Descripción: Tengo 18 años, soy de Colombia.\nEstudié Desarrollo de Software en la Escuela Cesde.\nSoy desarrollador FullStack.</string>
+    <string name="fullName">Hola! soy Emanuel Osorio Urrea</string>
+    <string name="description">Tengo 18 años, soy de Colombia.\nEstudié Desarrollo de Software en la Escuela Cesde.\nSoy desarrollador FullStack.</string>
     <string name="email">Correo Electronico: emanuelou67@gmail.com</string>
     <string name="phoneNumber">Celular: 0000000000</string>
 
