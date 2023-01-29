@@ -64,21 +64,26 @@ public class MainActivity extends AppCompatActivity {
 
         switch (itemSelected){
 
-            case(R.id.opcion1):
-                Intent intent = new Intent(MainActivity.this, About.class);
+            case(R.id.option):
+                Intent intent = new Intent(this, MainActivity.class);
                 startActivity(intent);
                 break;
 
-            case(R.id.opcion2):
-                this.changeLanguage("en");
-                Intent intent1 = new Intent(MainActivity.this, MainActivity.class);
-                startActivity(intent1);
+            case(R.id.option1):
+                Intent intentAb = new Intent(MainActivity.this, About.class);
+                startActivity(intentAb);
                 break;
 
-            case(R.id.opcion3):
+            case(R.id.option2):
+                this.changeLanguage("en");
+                Intent intentEn= new Intent(MainActivity.this, MainActivity.class);
+                startActivity(intentEn);
+                break;
+
+            case(R.id.option3):
                 this.changeLanguage("es");
-                Intent intent2 = new Intent(MainActivity.this, MainActivity.class);
-                startActivity(intent2);
+                Intent intentEs = new Intent(MainActivity.this, MainActivity.class);
+                startActivity(intentEs);
                 break;
 
         }

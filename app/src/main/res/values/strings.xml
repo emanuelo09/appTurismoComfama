@@ -2,9 +2,10 @@
 
     <string name="app_name">Turistiando</string>
 
-    <string name="opcion1">Acerca de</string>
-    <string name="opcion2">Ingles</string>
-    <string name="opcion3">Español</string>
+    <string name="option0">Inicio</string>
+    <string name="option1">Acerca de</string>
+    <string name="option2">Ingles</string>
+    <string name="option3">Español</string>
 
     <string name="iconhotel">Hotel</string>
     <string name="iconRestaurant">Restaurante</string>

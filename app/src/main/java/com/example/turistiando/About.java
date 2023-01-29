@@ -60,17 +60,22 @@ public class About extends AppCompatActivity {
 
         switch (itemSelected){
 
-            case(R.id.opcion1):
+            case(R.id.option):
+                Intent intent = new Intent(this, MainActivity.class);
+                startActivity(intent);
+                break;
+
+            case(R.id.option1):
                 Toast.makeText(this,"Seleccionaste opcion 1", Toast.LENGTH_SHORT).show();
                 break;
 
-            case(R.id.opcion2):
+            case(R.id.option2):
                 this.changeLanguage("en");
                 Intent intent1 = new Intent(About.this, About.class);
                 startActivity(intent1);
                 break;
 
-            case(R.id.opcion3):
+            case(R.id.option3):
                 this.changeLanguage("es");
                 Intent intent2 = new Intent(About.this, About.class);
                 startActivity(intent2);
