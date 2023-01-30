@@ -62,4 +62,58 @@
         android:text="@string/iconRestaurant"
         />
 
+    <ImageButton
+        android:id=""
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toEndOf="@id/iconHotel"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.1"
+        app:layout_constraintVertical_bias="0.3"
+        android:padding="20dp"
+        android:src="@drawable/restaurant"
+        />
+
+    <TextView
+        android:id=""
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/iconRestaurant"
+        app:layout_constraintStart_toStartOf="@id/textHotel"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintVertical_bias="0"
+        app:layout_constraintHorizontal_bias="0.26"
+        android:text="@string/iconRestaurant"
+        />
+
+    <ImageButton
+        android:id=""
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toEndOf="@id/iconHotel"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.1"
+        app:layout_constraintVertical_bias="0.3"
+        android:padding="20dp"
+        android:src="@drawable/restaurant"
+        />
+
+    <TextView
+        android:id=""
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/iconRestaurant"
+        app:layout_constraintStart_toStartOf="@id/textHotel"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintVertical_bias="0"
+        app:layout_constraintHorizontal_bias="0.26"
+        android:text="@string/iconRestaurant"
+        />
+
 </android.support.constraint.ConstraintLayout>

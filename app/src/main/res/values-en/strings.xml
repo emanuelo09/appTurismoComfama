@@ -3,6 +3,9 @@
 
     <string name="app_name">Turistiando</string>
 
+    <string name="splash">Welcome to</string>
+    <string name="splash1">Jericó Antioquia</string>
+
     <string name="option0">Start</string>
     <string name="option1">About me</string>
     <string name="option2">English</string>
