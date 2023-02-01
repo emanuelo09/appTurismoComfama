@@ -10,6 +10,8 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
+import android.widget.ImageButton;
 import android.widget.Toast;
 
 import java.util.Locale;
@@ -17,6 +19,8 @@ import java.util.Locale;
 public class MainActivity extends AppCompatActivity {
 
     //ATRIBUTOS
+    ImageButton buttonHotels;
+    ImageButton buttonRestaurants;
 
     //METODOS
     @Override
@@ -29,6 +33,20 @@ public class MainActivity extends AppCompatActivity {
         //cambiando el color del action bar
         ColorDrawable colorBar = new ColorDrawable(Color.parseColor("#497CB2"));
         bar.setBackgroundDrawable(colorBar);
+
+        //Asociando los botones a eventos de click (Escucha click ome)
+        buttonHotels = findViewById(R.id.iconHotels);
+        buttonRestaurants = findViewById(R.id.iconRestaurants);
+
+        buttonHotels.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+                Intent intentHotels = new Intent();
+                startActivity(intentHotels);
+
+            }
+        });
 
     }
 
