@@ -45,6 +45,7 @@ public class Adapter extends RecyclerView.Adapter<Adapter.viewHolder> {
         ImageView photoHotel;
         TextView nameHotel;
         TextView hotelPrice;
+        TextView hotelContext;
 
         public viewHolder(@NonNull View itemView) {
             super(itemView);
@@ -52,6 +53,7 @@ public class Adapter extends RecyclerView.Adapter<Adapter.viewHolder> {
             photoHotel = itemView.findViewById(R.id.photoHotel);
             nameHotel = itemView.findViewById(R.id.nameHotel);
             hotelPrice = itemView.findViewById(R.id.hotelPrice);
+            hotelContext = itemView.findViewById(R.id.hotelContext);
 
         }
 
@@ -60,6 +62,7 @@ public class Adapter extends RecyclerView.Adapter<Adapter.viewHolder> {
             photoHotel.setImageResource(hotel.getPhotography());
             nameHotel.setText(hotel.getName());
             hotelPrice.setText(hotel.getPrice());
+            hotelContext.setText(hotel.getContext());
         }
     }
 

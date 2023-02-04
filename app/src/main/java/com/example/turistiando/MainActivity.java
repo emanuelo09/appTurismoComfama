@@ -48,6 +48,16 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+        buttonRestaurants.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+                Intent intentRestaurant = new Intent();
+                startActivity(intentRestaurant);
+
+            }
+        });
+
     }
 
     //Metodo para cambiar el idioma de mi app

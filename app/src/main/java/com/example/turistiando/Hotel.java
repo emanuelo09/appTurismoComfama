@@ -5,11 +5,14 @@ public class Hotel {
     private int photography;
     private String name;
     private String price;
+    private String context;
 
-    public Hotel(int photography, String name, String price) {
+
+    public Hotel(int photography, String name, String price, String context) {
         this.photography = photography;
         this.name = name;
         this.price = price;
+        this.context = context;
     }
 
     public int getPhotography() {
@@ -35,6 +38,10 @@ public class Hotel {
     public void setPrice(String price) {
         this.price = price;
     }
+
+    public String getContext(){return context;}
+
+    public void setContext(String context){this.context = context;}
 
     //LastKey
 }
