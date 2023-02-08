@@ -4,7 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Hotels">
+    tools:context=".Hotels"
+    android:background="@drawable/backgroundHotels">
 
     <android.support.v7.widget.RecyclerView
         android:id="@+id/recycler"

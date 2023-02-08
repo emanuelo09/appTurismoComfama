@@ -2,7 +2,8 @@
 <android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    xmlns:app="http://schemas.android.com/apk/res-auto">
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    >
 
     <ImageView
         android:id="@+id/imageRestaurant"
@@ -27,6 +28,11 @@
         android:textAlignment="center"
         android:textSize="22dp"
         android:textStyle="bold"
+        android:textColor="@color/white"
+        android:gravity="center"
+        android:elevation="20dp"
+        android:background="@drawable/rounded_corner"
+        android:padding="5dp"
         />
 
     <TextView
@@ -41,6 +47,11 @@
         android:textAlignment="center"
         android:textSize="16dp"
         android:textStyle="bold"
+        android:textColor="@color/white"
+        android:gravity="center"
+        android:elevation="20dp"
+        android:background="@drawable/rounded_corner"
+        android:padding="5dp"
         />
 
     <TextView
@@ -54,6 +65,11 @@
         android:textAlignment="center"
         android:textSize="16dp"
         android:textStyle="bold"
+        android:textColor="@color/white"
+        android:gravity="center"
+        android:elevation="20dp"
+        android:background="@drawable/rounded_corner"
+        android:padding="5dp"
         />
 
 
