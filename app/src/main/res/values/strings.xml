@@ -28,13 +28,13 @@
 
 
 
-    <string name="restaurantTitle1"></string>
-    <string name="restaurantType1"></string>
-    <string name="restaurantSentence1"></string>
+    <string name="restaurantTitle1">Café Don Rafa</string>
+    <string name="restaurantType1">Café, Té, y comidas Colombianas</string>
+    <string name="restaurantSentence1">Pase un rato agradable, ambiente, música colombiana además de estar ubicado en frente del parque principal.</string>
 
-    <string name="restaurantTitle2"></string>
-    <string name="restaurantType2"></string>
-    <string name="restaurantSentence2"></string>
+    <string name="restaurantTitle2">Isabel Parrilla Arte Café</string>
+    <string name="restaurantType2">Churrasquería, Café, y Bar de vinos</string>
+    <string name="restaurantSentence2">Disfrute de este hermoso lugar, con comidas deliciosas con una espectacular presentación, con deliciosos vinos y una decoración fabulosa</string>
 
     <string name="restaurantTitle3"></string>
     <string name="restaurantType3"></string>

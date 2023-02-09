@@ -19,13 +19,13 @@
     <string name="email">email: emanuelou67@gmail.com</string>
     <string name="phoneNumber">CellPhone: 0000000000</string>
 
-    <string name="restaurantTitle1"></string>
-    <string name="restaurantType1"></string>
-    <string name="restaurantSentence1"></string>
+    <string name="restaurantTitle1">Coffee Don Rafa</string>
+    <string name="restaurantType1">Coffee, Tea, and Colombian foods</string>
+    <string name="restaurantSentence1">Have a nice time, atmosphere, Colombian music as well as being located in front of the main park.</string>
 
-    <string name="restaurantTitle2"></string>
-    <string name="restaurantType2"></string>
-    <string name="restaurantSentence2"></string>
+    <string name="restaurantTitle2">Isabel Grill Art Coffee</string>
+    <string name="restaurantType2">Steakhouse, Cafe, and Wine Bar</string>
+    <string name="restaurantSentence2">Enjoy this beautiful place, with delicious meals with a spectacular presentation, with delicious wines and a fabulous decoration.</string>
 
     <string name="restaurantTitle3"></string>
     <string name="restaurantType3"></string>
