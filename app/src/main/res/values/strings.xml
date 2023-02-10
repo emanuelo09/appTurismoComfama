@@ -34,32 +34,32 @@
 
     <string name="restaurantTitle2">Isabel Parrilla Arte Café</string>
     <string name="restaurantType2">Churrasquería, Café, y Bar de vinos</string>
-    <string name="restaurantSentence2">Disfrute de este hermoso lugar, con comidas deliciosas con una espectacular presentación, con deliciosos vinos y una decoración fabulosa</string>
+    <string name="restaurantSentence2">Disfrute de este hermoso lugar, con comidas deliciosas con una espectacular presentación, con deliciosos vinos y una decoración fabulosa.</string>
 
-    <string name="restaurantTitle3"></string>
-    <string name="restaurantType3"></string>
-    <string name="restaurantSentence3"></string>
+    <string name="restaurantTitle3">Arabic Fox</string>
+    <string name="restaurantType3">Libanesa, Comida rápida, Sudamericana, Colombiana</string>
+    <string name="restaurantSentence3">Ven y disfruta de esta exquisita comida, en un ambiente agradable y tranquilo.</string>
 
-    <string name="restaurantTitle4"></string>
-    <string name="restaurantType4"></string>
-    <string name="restaurantSentence4"></string>
+    <string name="restaurantTitle4">Ecoland</string>
+    <string name="restaurantType4">Desayuno, Almuerzo, Cena, y Bebidas</string>
+    <string name="restaurantSentence4">Asientos al aire libre, Restaurante privado, Wi-Fi gratis, Bar completo, pagos digitales, y vistas increibles con muchos más eventos.</string>
 
 
 
-    <string name="hotelName1"></string>
-    <string name="hotelPrice1"></string>
+    <string name="hotelName1">Vista Hermosa Finca Hotel</string>
+    <string name="hotelPrice1">Precio por noche: $220.000</string>
     <string name="hotelContext1"></string>
 
     <string name="hotelName2"></string>
-    <string name="hotelPrice2"></string>
+    <string name="hotelPrice2">Precio por noche: $150.000</string>
     <string name="hotelContext2"></string>
 
     <string name="hotelName3"></string>
-    <string name="hotelPrice3"></string>
+    <string name="hotelPrice3">Precio por noche: $150.000</string>
     <string name="hotelContext3"></string>
 
     <string name="hotelName4"></string>
-    <string name="hotelPrice4"></string>
+    <string name="hotelPrice4">Precio por noche: $150.000</string>
     <string name="hotelContext4"></string>
 
 
